@@ -1,0 +1,47 @@
+
+            .block1{
+                background-color: springgreen;
+                position: relative;
+                top:200px;
+                left:200px;
+            }
+            .block1:hover{
+                background-color: tomato;
+                border-radius: 12px;
+                transition:2s;
+                transform:scale(2,3) rotate(360deg);
+            }
+            .block-adj{
+                max-width: 30%;
+                display: block;
+            }
+            .block2 {
+                background-color:lightseagreen;
+                position: relative;
+                top:300px;
+                left:750px;
+            }
+            .block2:hover{
+                background-color: lightcoral;
+                border-radius: 12px;
+                transition: 2s;
+                transform: rotate(-45deg);
+            }
+            .block3 {
+                background-color:rgb(240, 243, 73);
+                position: relative;
+                top:-100px;
+                left:750px;
+            }
+            .block3:hover{
+                background-color: rgb(245, 55, 55);
+                border-radius: 12px;
+                transition: 2s;
+                transform: rotate(-360deg);
+                
+            }
+            p{
+                font-size: 30px;
+                padding: 12px;
+                color: white;
+            }

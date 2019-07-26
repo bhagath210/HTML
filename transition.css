@@ -1,0 +1,36 @@
+.div1 {
+    width: 220px;
+    height: 225px;
+    background-image: url("google.png");
+    transition: width 2s;
+}
+.div1:hover {
+    width:900px;
+}
+.div2 {
+    width: 220px;
+    height: 225px;
+    position: relative;
+    left:900px;
+    top: -225px;
+    background-image: url("google.png");
+    transition: height 2s;
+}
+.div2:hover {
+    height:675px;
+}
+span {
+    font-size: 20px;
+    color:blue;
+}
+.vertical{
+    font-size: 15px;
+}
+.rightdiv{
+    position: relative;
+    right: -1000px;
+    top: -475px;
+}
+p{
+    
+}
